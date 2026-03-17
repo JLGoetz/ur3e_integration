@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# UR_RTDE / C++ Build artifacts
+build/
+dist/
+*.pyd
+*.so
+*.dll
+
+# IDEs
+.vscode/
+.idea/
