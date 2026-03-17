@@ -1,0 +1,38 @@
+2026-03-17 15:42:50,281 - INFO - Logging initialized. System ready.
+2026-03-17 15:42:50,281 - INFO - Attempting connection to 192.168.1.10...
+2026-03-17 15:43:16,339 - INFO - Logging initialized. System ready.
+2026-03-17 15:43:16,339 - INFO - Attempting connection to 192.168.1.10...
+2026-03-17 15:44:11,938 - INFO - Logging initialized. System ready.
+2026-03-17 15:44:11,938 - INFO - Attempting connection to 192.168.1.10...
+2026-03-17 15:44:38,977 - INFO - Logging initialized. System ready.
+2026-03-17 15:44:38,977 - INFO - Attempting connection to 192.168.1.10...
+2026-03-17 15:44:39,279 - INFO - Command: MoveJ to Home | Speed: 0.3 | Accel: 0.2
+2026-03-17 15:44:55,575 - INFO - Movement Completed: Robot at Home.
+2026-03-17 15:44:55,606 - INFO - Session ended. Communication closed.
+2026-03-17 15:54:08,344 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-17 15:54:08,344 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.10...
+2026-03-17 15:54:08,510 - INFO - SUCCESS: RTDE Interfaces Synchronized.
+2026-03-17 15:54:08,510 - INFO - COMMAND: MoveJ to Home | Speed: 0.3 | Accel: 0.2
+2026-03-17 15:54:16,212 - INFO - STATUS: Movement completed successfully.
+2026-03-17 15:54:16,243 - INFO - SYSTEM: Session ended. Communication closed.
+2026-03-17 17:17:08,735 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-17 17:17:08,737 - INFO - DASHBOARD: Connecting to Dashboard Server (Port 29123)...
+2026-03-17 17:17:10,801 - ERROR - DASHBOARD: Failed to power on robot: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-03-17 17:17:33,690 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-17 17:17:33,690 - INFO - DASHBOARD: Connecting to Dashboard Server (Port 29123)...
+2026-03-17 17:17:35,738 - ERROR - DASHBOARD: Failed to power on robot: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-03-17 17:19:33,204 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-17 17:19:33,204 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.10...
+2026-03-17 17:19:33,376 - INFO - SUCCESS: RTDE Interfaces Synchronized.
+2026-03-17 17:19:33,376 - INFO - COMMAND: MoveJ to Home | Speed: 0.2 | Accel: 0.1
+2026-03-17 17:19:40,967 - INFO - STATUS: Movement completed successfully.
+2026-03-17 17:19:40,998 - INFO - SYSTEM: Session ended. Communication closed.
+2026-03-17 17:20:36,243 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-17 17:20:36,243 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.10...
+2026-03-17 17:20:36,295 - ERROR - FAILURE: RTDE Connection failed: ur_rtde: Please enable remote control on the robot!
+2026-03-17 17:21:00,397 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-17 17:21:00,401 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.10...
+2026-03-17 17:21:00,575 - INFO - SUCCESS: RTDE Interfaces Synchronized.
+2026-03-17 17:21:00,575 - INFO - COMMAND: MoveJ to Home | Speed: 0.2 | Accel: 0.1
+2026-03-17 17:21:08,173 - INFO - STATUS: Movement completed successfully.
+2026-03-17 17:21:08,205 - INFO - SYSTEM: Session ended. Communication closed.
