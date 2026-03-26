@@ -2,11 +2,14 @@ from robot_manager import UR3eManager
 import sys
 import io
 
+
 # Enforce UTF-8 for Windows console output
 if sys.platform == "win32":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
+
 def main():
+    
     # Initialize the Manager
     robot = UR3eManager()
     
@@ -24,6 +27,8 @@ def main():
         robot.disconnect()
     else:
         print("CRITICAL: Could not prepare robot hardware. Check Emergency Stop.")
+
+    print("Listening for gestures...")
 
 if __name__ == "__main__":
     main()

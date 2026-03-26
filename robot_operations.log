@@ -36,3 +36,47 @@
 2026-03-17 17:21:00,575 - INFO - COMMAND: MoveJ to Home | Speed: 0.2 | Accel: 0.1
 2026-03-17 17:21:08,173 - INFO - STATUS: Movement completed successfully.
 2026-03-17 17:21:08,205 - INFO - SYSTEM: Session ended. Communication closed.
+2026-03-21 11:29:42,533 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-21 11:29:42,533 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.10...
+2026-03-21 11:30:03,559 - ERROR - FAILURE: RTDE Connection failed: Error: Could not connect to: 192.168.1.10 at 30004, verify the IP
+2026-03-21 11:31:34,166 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-21 11:31:34,166 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.10...
+2026-03-21 11:31:55,221 - ERROR - FAILURE: RTDE Connection failed: Error: Could not connect to: 192.168.1.10 at 30004, verify the IP
+2026-03-21 11:33:06,084 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-21 11:33:06,084 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.5...
+2026-03-21 11:33:06,268 - INFO - SUCCESS: RTDE Interfaces Synchronized.
+2026-03-21 11:33:06,268 - INFO - COMMAND: MoveJ to Home | Speed: 0.2 | Accel: 0.1
+2026-03-21 11:33:23,873 - INFO - STATUS: Movement completed successfully.
+2026-03-21 11:33:23,890 - INFO - SYSTEM: Session ended. Communication closed.
+2026-03-21 12:00:35,357 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-21 12:00:35,357 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.5...
+2026-03-21 12:00:35,547 - INFO - SUCCESS: RTDE Interfaces Synchronized.
+2026-03-21 12:00:35,547 - INFO - COMMAND: MoveJ to Home | Speed: 0.2 | Accel: 0.1
+2026-03-21 12:00:35,563 - INFO - STATUS: Movement completed successfully.
+2026-03-21 12:00:35,590 - INFO - SYSTEM: Session ended. Communication closed.
+2026-03-21 12:07:12,066 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-21 12:07:12,066 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.5...
+2026-03-21 12:07:12,180 - INFO - SUCCESS: RTDE Interfaces Synchronized.
+2026-03-21 12:07:12,181 - INFO - COMMAND: MoveJ to Home | Speed: 0.2 | Accel: 0.1
+2026-03-21 12:07:12,206 - INFO - STATUS: Movement completed successfully.
+2026-03-21 12:07:12,231 - INFO - SYSTEM: Session ended. Communication closed.
+2026-03-21 12:10:29,556 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-21 12:10:29,556 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.5...
+2026-03-21 12:10:29,721 - INFO - SUCCESS: RTDE Interfaces Synchronized.
+2026-03-21 12:10:29,722 - INFO - COMMAND: MoveJ to Home | Speed: 0.2 | Accel: 0.1
+2026-03-21 12:10:29,738 - INFO - STATUS: Movement completed successfully.
+2026-03-21 12:20:12,127 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-21 12:20:12,132 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.5...
+2026-03-21 12:20:12,400 - INFO - SUCCESS: RTDE Interfaces Synchronized.
+2026-03-21 12:27:00,638 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-21 12:27:00,638 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.5...
+2026-03-21 12:27:00,688 - ERROR - FAILURE: RTDE Connection failed: ur_rtde: Please enable remote control on the robot!
+2026-03-21 12:27:28,950 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-21 12:27:28,950 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.5...
+2026-03-21 12:27:29,045 - ERROR - FAILURE: RTDE Connection failed: ur_rtde: Please enable remote control on the robot!
+2026-03-21 12:27:40,886 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-21 12:27:40,886 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.5...
+2026-03-21 12:27:40,998 - INFO - SUCCESS: RTDE Interfaces Synchronized.
+2026-03-21 12:27:40,998 - INFO - COMMAND: MoveJ to Home | Speed: 0.2 | Accel: 0.1
+2026-03-21 12:27:48,696 - INFO - STATUS: Movement completed successfully.
+2026-03-21 12:27:48,715 - INFO - SYSTEM: Session ended. Communication closed.
