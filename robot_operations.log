@@ -80,3 +80,8 @@
 2026-03-21 12:27:40,998 - INFO - COMMAND: MoveJ to Home | Speed: 0.2 | Accel: 0.1
 2026-03-21 12:27:48,696 - INFO - STATUS: Movement completed successfully.
 2026-03-21 12:27:48,715 - INFO - SYSTEM: Session ended. Communication closed.
+2026-03-26 14:15:50,237 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-26 14:15:50,237 - INFO - CONNECT: Attempting RTDE connection to 192.168.1.5...
+2026-03-26 14:15:50,306 - ERROR - FAILURE: RTDE Connection failed: ur_rtde: Please enable remote control on the robot!
+2026-03-26 16:09:55,780 - INFO - SYSTEM: Logging initialized. Ready for operation.
+2026-03-26 16:14:04,725 - INFO - SYSTEM: Logging initialized. Ready for operation.

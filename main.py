@@ -13,22 +13,28 @@ def main():
     # Initialize the Manager
     robot = UR3eManager()
     
-    # 1. Hardware Prep: Power on electronics and release mechanical brakes
-    # This uses the Dashboard Server on Port 29123
-    #if robot.power_on_and_release_brakes():
-        
-    # 2. Communication: Start the 500Hz RTDE synchronization
-    if robot.connect():
-        
-        # 3. Execution: Move to the predefined Home position
-        robot.move_to_home(speed=0.2, accel=0.1)
-        
-        # 4. Cleanup: Stop the RTDE control loop
-        robot.disconnect()
-    else:
-        print("CRITICAL: Could not prepare robot hardware. Check Emergency Stop.")
+    print("\n--- UR5e ADMIN CONTROL ---")
+    print("Commands: [on] [off] [clear] [home] [status] [exit]")
 
-    print("Listening for gestures...")
+    while True:
+        cmd = input("\nEnter Command: ").lower().strip()
+        
+        if cmd == "on":
+            robot.power_on_sequence()
+        elif cmd == "off":
+            robot.shutdown()
+        elif cmd == "clear":
+            robot.clear_faults()
+        elif cmd == "home":
+            robot.move_home()
+        elif cmd == "status":
+            mode = robot.dashboard("robotmode")
+            safety = robot.dashboard("safetymode")
+            print(f"Robot Mode: {mode} | Safety Mode: {safety}")
+        elif cmd == "exit":
+            break
+        else:
+            print("Unknown command.")
 
 if __name__ == "__main__":
     main()
